@@ -1,0 +1,126 @@
+@charset "utf-8";
+/* CSS Document */
+
+.index_nav1 .index_nav1_serve a{background-color:#0A6089}
+
+/*内容区域*/	
+	
+	/*用户主页右侧*/
+	.user_content .user_content_con_c{}
+	.user_content_con_c .user_home{}
+	
+	/*我的物流*/
+	.user_content .content_goods_cart_top{ height:33px;/*border-bottom:3px solid #005073;*/ margin-top:2px;}
+	.content_goods_cart_top .top_cart{width:100px; height:30px; display:block; text-indent:10px;font-size:15px; font-weight:bold; line-height:30px;border-bottom:3px solid #8BBAD9; padding-right:10px;}
+	.content_goods_cart_top .top_recommend{border-bottom:3px solid #005073;}
+	.content_goods_cart_top .top_all{width:860px; height:30px; display:block; text-align:right; padding-right:10px;line-height:30px;border-bottom:3px solid #8BBAD9;}
+	.content_goods_cart_top .top_all .span1{font-size:14px; font-weight:bold;}
+	.content_goods_cart_top .top_all .span2{font-size:10px;/* margin:0 20px 0 5px;*/}
+	
+		label input{vertical-align:middle;}
+	.user_content .serve_content_li_list{ background:#fff;}
+	.serve_content_li_list .list_top,.serve_content_li_list .list_bottom{font-size:16px; font-weight:bold; color:#333; text-indent:10px; line-height:30px; margin-top:10px;/*border-bottom:2px solid #999;*/}
+	.serve_content_li_list .list_top em{ font-size:12px; vertical-align:sub; font-weight:200; padding:0 5px;}
+	.serve_content_li_list .list_top .span1{ font-size:12px; vertical-align:sub; font-weight:200;}
+	.serve_content_li_list .list_con{ /*height:1450px;*/ color:#333; line-height:30px; font-size:13px;}
+	.serve_content_li_list .list_con .width_size1{ width:200px; text-align:right;font-size:16px;}
+	.serve_content_li_list .list_con .width_size2{ width:800px; text-align:left;}
+	.serve_content_li_list .list_con .con_1{font-size:13px;}
+	.con_1 .con_l_type1{ line-height:30px;}
+	.serve_content_li_list .list_con .con_{ padding:8px 0;}
+	.serve_content_li_list .list_con select{ width:120px;height:30px;}
+	.serve_content_li_list .list_con input{height:24px;}
+	.con_2 .con_2_type2 label{ display:inline-block; margin-right:10px; width:120px; height:30px; overflow:hidden;}
+	.con_2 .con_2_type2 .p1 input{width:250px; height:24px; border: 1px solid rgb(224, 222, 222); line-height:24px; padding-left: 5px; margin-right:10px;}
+	.con_2 .con_2_type2 .p1 .span1{width:100px; text-align:right;font-size:14px;}
+	.con_3_type2 .type2_color{ display:inline-block;height:30px;background:#fff; font-size:13px; padding:0 10px;border:1px solid #ccc;}
+	.con_3_type2 .type2_color .span1{margin-left:15px;width:7px; height:17px; overflow:hidden; display:inline-block;background:url(/images/buy_content_cate2.png) left 10px no-repeat;}
+
+	.con_11_type2 span a{ padding:0px 20px; border-radius:5px; display:inline-block; background:rgba(139,186,217,0.4);}
+	.con_11_type2 span a:hover{ background-color:rgba(139,186,217,1);}
+
+	.con_20_type2 select{width:130px;}
+	
+	.list_con .a1{ color:#333;}
+	.list_con .con_21{ width:650px; text-align:center;}
+	.list_con .con_21 a{font-size:14px; padding:5px 40px; display:inline-block; background:rgba(139,186,217,0.4); border-radius:5px;}
+	.list_con .con_21 a:hover{ background-color:rgba(139,186,217,1);}
+
+	.list_con .list_bottom_con_{padding-left:30px; }
+	.list_con .list_bottom_con{ width:480px; height:140px; margin-bottom:30px; margin-top:10px;}
+	.list_bottom_con .pic{ width:140px; height:140px;}
+	.list_bottom_con .con_txt{width:300px; height:140px; font-size:12px; display:block; margin-left:20px;}
+	
+	.list_bottom_con .con_txt p{ line-height:35px;}
+	.list_bottom_con .con_txt .p1{font-size:15px; font-weight:bold; color:#333;line-height:30px;}
+	.list_bottom_con .con_txt .p2{ margin:5px 0;}
+	.list_bottom_con .con_txt .p2 a{ color:#333; padding:3px 12px;/*border:1px solid #ccc; line-height:20px;*/ border-radius:3px; background:rgba(139,186,217,0.4);}
+	.list_bottom_con .con_txt .p2 a:hover{background-color:rgba(139,186,217,1);}
+	
+	.bottom_look{ width:1100px; margin:0 auto;}
+	.bottom_look .look_txt{ line-height:30px; color:#333; font-size:13px;  width:280px; padding-right:10px; margin:8px 0;}
+	.bottom_look .look_txt1{ width:420px;}
+	.bottom_look .look_txt a{color:#333;}
+	.bottom_look .look_txt a:hover{ text-decoration:underline; color:#0B6FB0;}
+	.bottom_look .look_txt em{ padding:0 5px;}
+	.bottom_look .look_txt .span33{ padding:3px 15px;background:rgba(139,186,217,0.4); border-radius:10px;}
+	
+	
+	
+	
+	/*服务保障*/
+	.user_content .serve_content_li_list{ background-color:#fff;}
+	.serve_content_li_list .list_top_{}
+	.list_top_ p{text-align:center;}
+	.list_top_ .p1 a{ font-size:20px; font-weight:200; color:#fff; line-height:40px; display:inline-block; padding:0 50px;background:#0B6FB0;border-radius:18px; margin:20px 0;}
+	
+	.list_top_ .list_top_li{}
+	.list_top_li .top_li_le{ width:562px; text-align:right;}.list_top_li .top_li_le1 li{}
+	.list_top_li ul li{ line-height:40px; padding-left:28px; background:url(../images/serve_content_lis_li.png) left center no-repeat;}
+	.list_top_li .top_li_le ul{ float:right;text-align:left;}
+	.list_top_li .top_li_ri{ width:520px; text-align:left;}
+	
+	.list_bootom .list_bootom_trade{
+    width: 1190px;
+    margin: 0 auto;
+	}
+	.list_bootom_trade .four-list{
+		background:url(../images/serve_list_bootom_trade.png) no-repeat;
+		height: 184px;
+		width: 940px;
+		margin:20px auto;
+		background-position: 0 40px;
+	}
+	.four-list li.one {
+		text-align: left;
+		padding-left: 15px;
+		width: 195px;
+	}
+	.four-list li {
+		float: left;
+		width: 255px;
+		text-align: center;
+		color: #333;
+		font-size:18px;
+	}
+	.four-list li.last {
+		text-align: right;
+		padding-right: 10px;
+		width: 200px;
+	}	
+	.serve_content_li_list .bottom_back{ text-align:center;}
+	.serve_content_li_list .bottom_back p{ line-height:30px; margin:20px 0;}
+	.serve_content_li_list .bottom_back a{ padding:5px 40px;color:#333; background:rgba(139,186,217,0.6); margin-left:20px;border-radius:10px;}
+	
+	
+	.serve_content_li_list .list_top_li1{ padding:20px;}
+	.list_top_li1 .top_li_le{ width:660px; text-align:right;}.list_top_li1 .top_li_le1 li{}
+	.list_top_li1 ul li{ line-height:30px; padding-left:40px;font-size:14px;}
+	.list_top_li1 ul li h1{ line-height:60px; font-size:18px; margin-left:-30px;}
+	.list_top_li1 .top_li_le ul{/* float:right;*/text-align:left;}
+	.list_top_li1 .top_li_ri{ width:480px; text-align:left;}
+	
+	
+
+
+

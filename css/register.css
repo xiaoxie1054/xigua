@@ -1,0 +1,37 @@
+@charset "utf-8";
+/* CSS Document */
+
+/*内容区域*/
+	.register_content .register_content_top{height:30px;background-color:#0B6FB0;line-height:30px;}
+	.register_content .register_content_top a{ color:#fff;font-weight:bold; padding:0 5px 0 20px;}
+	.register_content .register_content_top span{color:#fff;font-size:9px;}
+	.register_content .register_content_con_{ background-color:#fff;}
+	.register_content .register_content_con{ width:800px;}
+	.register_content_con .name1,.register_content_con .email1,.register_content_con .mobile1,.register_content_con .ps1,.register_content_con .pss1,.register_content_con .catcha1{ font-weight:bold;font-size:14px; text-align:right; line-height:50px; width:120px; height:50px;}
+	.register_content_con .name2,.register_content_con .email2,.register_content_con .mobile2,.register_content_con .ps2,.register_content_con .pss2{width:210px;}
+	.register_content_con .margin{ padding-left:20px;}
+	.register_content_con .catcha2{width:100px;}
+	.register_content_con .catcha3{width:105px;}
+	.register_content_con .name22,.register_content_con .email22,.register_content_con .mobile22,.register_content_con .ps22,.register_content_con .pss22,.register_content_con .catcha22{font-size:10px; text-align:left; line-height:25px; width:210px; height:25px;}
+	.register_content_con .catcha22{width:100px;}
+	#catcha_image{margin-bottom:-11px; border:1px solid #ccc; border-radius:5px;}
+	
+	.register_content_con .reg1 input,.register_content_con .reg1 span{ vertical-align:middle; line-height:40px; font-size:13px;}
+	
+	.text_txt a{ color:#000; font-size:12px;}
+	.show_sh{ width:15px; height:18px;display:inline-block;background:url(/images/index_guide_shop1.png)-1px center no-repeat; margin:0 5px 0 20px; vertical-align:middle;}
+	.fail_fa{ width:20px; height:20px;display:inline-block;background:url(/images/register_content_con1.png)left 0px no-repeat; margin:0 5px 0 15px;vertical-align:middle;}
+	.succeed_su{ width:20px; height:20px;display:inline-block;background:url(/images/register_content_con1.png)left -64px no-repeat; margin:0 5px 0 15px;vertical-align:middle;}
+	
+	
+	
+	.register_content_con .reg_button a{ width:210px; text-align:center;color:#fff; background-color:#0B6FB0;border-radius:5px; padding:5px 0 7px 0; display:inline-block;}/*display:inline-block;才不会背景在下方 ，白色背景显示不到*/
+	.register_content_con .show_agree{ font-size:13px;overflow-y:auto; overflow-x:auto;width:600px; height:200px; padding:0 6px 0 20px; border:1px solid #ccc;}
+	.register_content_con .show_agree h1{font-size:14px; font-weight:bold;}
+	.register_content_con .show_agree p{ text-indent:2em;}
+
+
+
+
+
+

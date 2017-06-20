@@ -1,0 +1,65 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+/*内容区域*/	
+	
+	/*用户主页右侧*/
+	.user_content .user_content_con_c{}
+	.user_content_con_c .user_home{}
+	
+	/*我的物流*/
+	.user_content .content_goods_cart_top{ height:33px;/*border-bottom:3px solid #005073;*/ margin-top:2px;}
+	.content_goods_cart_top .top_cart{width:100px; height:30px; display:block; text-indent:10px;font-size:15px; font-weight:bold; line-height:30px;border-bottom:3px solid #8BBAD9; padding-right:10px;}
+	.content_goods_cart_top .top_recommend{border-bottom:3px solid #005073;}
+	.content_goods_cart_top .top_all{width:860px; height:30px; display:block; text-align:right; padding-right:10px;line-height:30px;border-bottom:3px solid #8BBAD9;}
+	.content_goods_cart_top .top_all .span1{font-size:14px; font-weight:bold;}
+	.content_goods_cart_top .top_all .span2{font-size:10px;/* margin:0 20px 0 5px;*/}
+	
+	.user_content .content_detail{} 
+	.content_detail .detail_left{ width:810px; padding:20px; background:#fff;}
+	.content_detail .detail_left h1{font-size:16px; font-weight:bold; text-align:center; line-height:40px; border-bottom:1px solid #999; padding-bottom:5px;}
+	.content_detail .detail_left .p1{font-size:12px;  line-height:35px; border-bottom:1px solid #999;}
+	.content_detail .detail_left .p2{ margin-top:20px;}
+	
+	
+	.content_detail .detail_right{ width:300px; padding:20px; background:#fff;}
+	.content_detail .detail_right h1{border-bottom:1px solid #999;padding-bottom:5px;}
+	.content_detail .detail_right .span1{font-size:14px; font-weight:bold; padding-left:8px; background:url(../images/buy_content_detail_right.png) left center no-repeat;}
+	.detail_right .right_{ width:300px; height:60px; padding-bottom:10px;}	
+	.right_ .right_pic{width:100px; height:60px;}
+	.right_ .right_txt{width:185px; height:60px; font-size:14px; display:inline-block;}
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

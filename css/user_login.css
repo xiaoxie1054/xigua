@@ -1,0 +1,40 @@
+@charset "utf-8";
+/* CSS Document */
+
+/*内容区域*/
+	.login_content .login_content_top{height:30px;background-color:#0B6FB0;line-height:30px;}
+	.login_content .login_content_top a{ color:#fff;font-weight:bold; padding:0 5px 0 20px;}
+	.login_content .login_content_top span{color:#fff;font-size:9px;}
+	.login_content .login_content_con_{ background-color:#fff;}
+	.login_content .login_content_con{ width:800px;}
+	.login_content_con .name1,.login_content_con .ps1,.login_content_con .catcha1{ font-weight:bold;font-size:14px; text-align:right; line-height:50px; width:120px; height:50px;}
+	.login_content_con .name2,.login_content_con .ps2{width:210px;}
+	.login_content_con .margin{ padding-left:20px;}
+	.login_content_con .catcha2{width:100px;}
+	.login_content_con .catcha3{width:105px;}
+	.login_content_con .name22,.login_content_con .email22,.login_content_con .ps22,.login_content_con .pss22,.login_content_con .catcha22{font-size:10px; text-align:left; line-height:25px; width:210px; height:25px;}
+	.login_content_con .catcha22{width:100px;}
+	#catcha_image{margin-bottom:-11px; border:1px solid #ccc; border-radius:5px;}
+	
+	.login_content_con .reg1 input,.login_content_con .reg1 span{ vertical-align:middle; line-height:40px; font-size:13px;}
+
+
+
+
+
+
+
+	.login_content_con .auto_login{ font-size:12px; color:#333; padding-left:95px;}
+	.auto_login input,.auto_login lable{vertical-align:text-top;}
+	.login_content_con .auto_login .span1{ margin-right:10px;}
+	.login_content_con .auto_login em{ margin:0 5px;}
+	.login_content_con .auto_login a{ color:#333;}
+	
+	
+	
+	
+	
+	
+	
+	
+	

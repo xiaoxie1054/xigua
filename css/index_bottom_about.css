@@ -1,0 +1,49 @@
+@charset "utf-8";
+/* CSS Document */
+
+.index_nav1 .index_nav1_home a{background-color:#0A6089}
+
+/*内容区域*/	
+	
+	/*用户主页右侧*/
+	.user_content .user_content_con_c{}
+	.user_content_con_c .user_home{}
+	
+	/*关于我们左侧*/ 
+	.user_home .user_content_con{}
+	.user_content_con .user_content_con_nav{}
+	.user_content_con_nav .nav_about{}
+	.user_content_con_nav .nav_about h1{ line-height:40px; font-size:24px; font-weight:bold; padding-bottom:10px;}
+	.nav_about ul li{ padding:5px 0; font-size:15px;}
+	.nav_about ul .li1 a{background-color:#8BBAD9;}
+	.nav_about ul .li1 a:hover{background-color:#8BBAD9;}
+	.nav_about ul li a{background-color:rgba(139,186,217,0.4);}
+	/*关于我们左侧*/
+	
+	.user_content_con .user_content_con_c{}
+	.user_content_con_c 
+	.con_about .about_top{}
+	.about_top .top_title{}
+	.about_top .top_title h1{/*border-bottom: 3px solid #005073;*/font-size: 16px;font-weight: bold;line-height: 30px;padding: 0 50px 0 10px;}
+	.con_about .about_txt{ line-height:30px; font-size:13px; background:#fff;}
+	.about_txt p{ text-indent:2em; padding:8px;}
+	
+	.con_about .about_txt h1{font-size: 15px;font-weight: bold;line-height: 40px; text-indent:1em;}
+	.con_about .about_txt h2{font-size: 15px;line-height:20px; text-indent:1.5em;}
+	.about_txt .txt_pic{ padding:20px 0;text-align:center;}
+	
+	.txt_pic .pic_pic{top:25%; right:44%;}
+	.txt_pic .pic_pic a{ width:45px; height:33px;  display:inline-block;line-height:27px;font-weight:bold; font-size:15px; color:#fff;background:url(../images/index_relation_chinamap_.png) 0px 0px no-repeat; }
+	.txt_pic .pic_pic a:hover{background:url(../images/index_relation_chinamap_.png) 0px -38px no-repeat;}
+	
+	.txt_pic .pic_t{top:36%; right:30%;display:inline-block;line-height:40px;background-color:#fff/*rgba(139,186,217,0.7)*/; border:1px solid #0b6fb0; padding:0 40px; border-radius:10px; color:#333; display:none;}
+	
+		
+	
+	
+	
+	
+	
+
+
+

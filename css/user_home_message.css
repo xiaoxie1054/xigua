@@ -1,0 +1,67 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+/*内容区域*/	
+	
+	/*站内消息*/
+	.content_goods_message{}
+	.content_goods_message .content_goods_message_top{ height:33px; color:#333;/*background-color:#0B6FB0;*/}/*height:32px;设置比行高底下边框的高度*/
+	.content_goods_message_top .top_message h1{border-bottom:3px solid #005073;font-size:15px; font-weight:bold; line-height:30px; padding:0 50px 0 10px;}
+	.content_goods_message_top .top_all .span1{font-size:15px; font-weight:bold; line-height:30px;}
+	.content_goods_message_top .top_all .span2{font-size:12px;line-height:30px; margin:0 20px 0 5px;}
+	/*站内消息内容top*/
+	.content_goods_message_con{}
+	.content_goods_message_con .content_goods_message_con_top{height:30px;font-size:14px; color:#fff;text-align:center;background-color:#0B6FB0; /*background-color:#8BBAD9;*/line-height:30px;}
+	.content_goods_message_con_top .con_check{width:83px;}
+	.content_goods_message_con_top .con_check input{ vertical-align:text-bottom; margin-right:5px;}
+	.content_goods_message_con_top .con_title{width:82px; }
+	.content_goods_message_con_top .con_content{width:210px;}
+	.content_goods_message_con_top .con_time{width:170px;}
+	.content_goods_message_con_top .con_source{width:152px;}
+	.content_goods_message_con_top .con_state{width:50px;}
+	.content_goods_message_con_top .con_action{width:162px;}
+	
+	/*站内消息内容*/
+	.content_goods_message_con_con{ padding:10px 15px; height:80px; line-height:20px;text-align:center; font-size:12px; border:1px solid #ccc;background-color:#fff;color:#333;}
+	.content_goods_message_con_con a{color:#333;}
+	.content_goods_message_con_con .con_check1{padding:0 10px 0 0px;}
+	.content_goods_message_con_con .con_title1{ width:160px;}
+	.content_goods_message_con_con .con_content1{ width:200px; text-align:left;}
+	.content_goods_message_con_con .con_time1{width:200px;}
+	.content_goods_message_con_con .con_source1{width:121px;}
+	.content_goods_message_con_con .con_state1{width:82px;}
+	.content_goods_message_con_con .con_action1{width:130px;}
+	
+	
+	.content_goods_message_con_con .con_num1 .left{ width:20px; height:20px; border:1px solid #ccc;}	
+	.content_goods_message_con_con .con_num1 .left a{ color:rgba(204,204,204,1);}	
+	.content_goods_message_con_con .con_num1 .center{ width:36px; height:20px; border:1px solid #ccc; margin-left:-1px;}	
+	.content_goods_message_con_con .con_num1 .center .center1{ width:36px; height:18px; border:0; text-align:center; font-size:12px;}	
+	.content_goods_message_con_con .con_num1 .right{ width:20px; height:20px; border:1px solid #ccc; margin-left:-1px;}
+	
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

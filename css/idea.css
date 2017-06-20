@@ -1,0 +1,76 @@
+@charset "utf-8";
+/* CSS Document */
+/*导航样式*/
+.index_nav1 .index_nav1_idea a{background-color:#0A6089;}
+
+/*内容区域*/
+   .idea_content .idea_content_{/* height:800px;*/}
+   .idea_content_ .con_top{ height:38px;/*因为下面加了上内边距*/ color:#333; padding:0 90px 0 0; }
+   .idea_content_ .con_top h1{border-bottom:3px solid #005073;font-size:15px; font-weight:bold; line-height:30px; padding:5px 0 0 10px; /* padding:0 150px 0 10px;display:inline-block;这个它会显示短的地步边框*/}
+   
+   .idea_content_ .con_con{ /*height:600px;*/ color:#333;}
+   .con_con .con_1{color:#333;font-size:13px;}
+   .con_con h1{font-size:13px; font-weight:500; line-height:30px;}
+   .con_con p{ text-indent:2em;}
+   .con_con .con_2{ color:#333;}
+   .con_con .con_3{color:#333;}
+   .con_con .con_3 ul{ padding-left:80px;}
+   .con_con .con_3 ul li{ line-height:30px;}
+   .con_con .con_3 ul li label{color:#333; font-size:13px;}
+   .con_con .con_4{color:#333;}
+   .con_con .con_4 .con_4_name{ line-height:20px;font-size:13px; margin-bottom:10px; height:25px; line-height:25px;}
+   .con_con .con_4 .con_4_name .span1{display:inline-block; width:200px; text-align:right;}
+   .con_con .con_4 .con_4_con input{ font-size:13px;}
+    .con_con .content_button{ width:450px; text-align:center; margin-bottom:10px;} 
+	.con_con .content_button a{font-size:13px; color:#333; padding:10px 25px; display:inline-block; background:rgba(139,186,217,0.4); border-radius:5px;}
+	.con_con .content_button a:hover{background:rgba(139,186,217,1);}
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+
+
+
+
+
+
+

@@ -1,0 +1,74 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+
+	/*新增地址*/
+	.content_goods_address{}
+	.content_goods_address .content_goods_address_top{ height:33px; color:#333;/*background-color:#0B6FB0;*/}/*height:32px;设置比行高底下边框的高度*/
+	.content_goods_address_top .top_address h1{border-bottom:3px solid #005073;font-size:15px; font-weight:bold; line-height:30px; padding:0 50px 0 10px;}
+	.content_goods_address_top .top_all .span1{font-size:15px; font-weight:bold; line-height:30px;}
+	.content_goods_address_top .top_all .span2{font-size:12px;line-height:30px; margin:0 20px 0 5px;}
+	/*收货地址内容top*/
+	.content_goods_address .content_goods_address_con{}
+	.content_goods_address_con .content_goods_address_con_top{ height:30px; background-color:#0B6FB0; /*background-color:#8BBAD9;*/line-height:30px;}
+	.content_goods_address_con_top{ color:#fff; font-size:14px; text-align:center;}
+	.content_goods_address_con_top .con_check{width:83px;}
+	.content_goods_address_con_top .con_check input{ vertical-align:text-bottom; margin-right:5px;}
+	.content_goods_address_con_top .con_name{width:80px;}
+	.content_goods_address_con_top .con_address1{width:170px; }
+	.content_goods_address_con_top .con_address2{width:200px; }
+	.content_goods_address_con_top .con_num{width:150px; }
+	.content_goods_address_con_top .con_phone{width:162px; }
+	.content_goods_address_con_top .con_action{width:150px; }
+	
+	
+	/*收货地址内容*/
+	.content_goods_address_con .content_goods_address_con_con{ padding:10px 0px; height:50px; line-height:20px;color:#333;text-align:center; font-size:12px; margin-bottom:2px;border:1px solid #ccc;background-color:#fff;}
+	.content_goods_address_con_con{color:#333;}
+	.content_goods_address_con_con a{color:#333;}
+	.content_goods_address_con_con .con_check1{padding:0 10px 0 15px;}
+	.content_goods_address_con_con .con_name1{width:155px;}
+	.content_goods_address_con_con .con_address11{width:160px; text-align:left; margin-right:15px;}
+	.content_goods_address_con_con .con_address21{width:160px;text-align:left;}
+	.content_goods_address_con_con .con_num1{width:150px; }
+	.content_goods_address_con_con .con_phone1{width:160px;}
+	.content_goods_address_con_con .con_action1{width:150px;}
+	/*.content_goods_address_con_con .con_action1 .con_action2{width:140px; padding:0 29px;}*/
+	.content_goods_address_con_con .con_action1 em{ padding:0 5px;}
+	
+	/*新增收货地址内容*/
+	.content_goods_address .content_goods_address_new{}
+	.content_goods_address_new h1{ font-size:14px; line-height:30px; padding-left:10px;}
+	.content_goods_address_new .new_content{ color:#333; font-size:14px;background:#fff;}
+	.new_content .content_con{height:35px;line-height:35px; margin-bottom:10px; margin-top:10px; }/*你设置高度会浮动*/
+	.new_content  .content_button{ width:450px; text-align:center; margin-bottom:10px;} 
+	.new_content .content_button a{font-size:14px; color:#333; padding:10px 30px; display:inline-block; background:rgba(139,186,217,0.4); border-radius:5px;}
+	.new_content .content_button a:hover{background:rgba(139,186,217,1);}
+	.content_con .con_name{width:180px; text-align:right;}
+	.content_con .con_con{ margin-right:5px;}
+	.content_con .con_txt input{ font-size:12px; height:30px; line-height:30px; padding-left:3px;}
+	.content_con .con_txt select{font-size:12px; height:35px; line-height:35px;}
+	.content_con .con_txt .select1{ margin-left:-1px;}
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

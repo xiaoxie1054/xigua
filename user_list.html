@@ -1,0 +1,61 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>查询学生信息</title>
+
+
+</head>
+
+<body>
+<?php
+	include_once("include.php");                         //包含connect.php文件，与该文件放在同一个文件夹中
+
+?>
+<table cellspacing="0" border="1" width="1000" align="center">
+    <tr align="center" height="90">
+    	<th colspan="6"><font size="+4" color="#000000">添加添加信息</font></th>
+    </tr>
+	<tr align="center" height="70">
+    	<th>用户id</th>
+        <th>用户名</th>
+        <th>用户密码</th>
+        <th>用户邮箱</th>
+        <th>用户注册时间</th>
+        <th>用户操作</th>
+    </tr>
+    <?php
+		$page_size=5;
+		$page_se=new Page_se($db,'tb_user_reg','user_id',$page_size);
+		$cur_page=$page_se->select_cur_page();
+		$page_nums=$page_se->select_page_nums();
+		$total=$page_se->select_total();     //总的条数
+		$list=$page_se->select_connect();    //查询内容
+		
+		if(!empty($list)){
+			foreach($list as $row){
+	?>			
+				
+    <tr align="center" height="40">
+    	<td><?=$row['user_id']?></td>
+        <td><?=$row['user_name']?></td>
+        <td><?=$row['user_password']?></td>
+        <td><?=$row['user_email']?></td>
+        <td><?=$row['user_time']?></td>
+        <td><a href="user_info.php?p=<?=$page_nums?>">添加</a>&nbsp;&nbsp;<a href="user_info.php?id=<?=$row['user_id']?>&p=<?=$cur_page?>">修改</a>&nbsp;&nbsp;<a onclick="javascript:if(confirm('你确定要删除吗？')){return true;}return false;" href="lib/admin_func.php?id=<?=$row['user_id']?>&act=delete&p=<?=$cur_page?>">删除</a></td><!--弹出提醒是否要删除-->
+    </tr>
+    <?php
+			}
+		}
+		
+	?>
+    <tr align="center" height="40">
+    	<td colspan="6">
+        <?php
+        $page=new Page($total,$page_size);
+		?>
+        </td>
+    </tr>
+</table>
+</body>
+</html>

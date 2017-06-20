@@ -1,0 +1,160 @@
+@charset "utf-8";
+/* CSS Document */
+A:link { /*连接平常的状态*/
+	COLOR:#007CF9; TEXT-DECORATION: none
+}
+A:visited {/*连接被访问过之后*/
+	COLOR: #007CF9; TEXT-DECORATION: none
+}
+A:active {/*连接被按下的时候 */
+	COLOR: #000000; TEXT-DECORATION: none
+}
+A:hover {/*鼠标放到连接上的时候*/
+	COLOR: #000000;
+}
+*{
+	margin:0;
+	padding:0;
+	font-family: "楷体";    					/*定义字体的*/
+}
+body{
+	background:#E7F0F7;
+	/*height:100%;
+	margin:auto;
+	background-image:url(/admin/images/admin_home.png);
+	position:static;
+	background-size:120%;
+	-moz-background-size:cover;
+	-webkit-background-size:cover; 
+	-ms-background-size:cover; 
+	width:100%;*/
+	/*background-color:transparent;*/
+}
+/*整个框架*/
+#admin_home_page{
+	width:1250px;
+	height:616px;
+	border:#188BC7 2px solid;
+	margin:auto;       	/*margin:0 auto 0;margin:auto;居中对齐*/
+	position:relative;    /*先给它设置相对定位 下面的才能相对于整个框架绝对定位*/
+	overflow:hidden;
+}
+/*框架的top部*/
+#admin_home_top{
+	width:1250px;
+	height:90px;
+	min-height:90px;
+	/*height:auto !important;*/
+	border-bottom:2px solid #188BC7; 
+	background: #0B6FB0 url(/admin/images/admin_home_top.png);
+	background-repeat:no-repeat;
+	/*position:static;
+	-moz-background-size:cover;
+	-webkit-background-size:cover; 
+	-ms-background-size:cover;*/
+	overflow:hidden;  
+}
+#admin_home_top a:hover{text-decoration:underline;}
+	.admin_home_top_logo1{
+		width:90px;
+		height:80px;
+		position:absolute;
+		left:0px;
+		top:0px;
+		cursor:pointer;
+	}
+	.admin_home_top_logo2{
+		width:290px;
+		height:60px;
+		position:absolute;
+		left:84px;
+		top:0px;
+		cursor:pointer;
+	}
+	
+	#admin_home_top_font1{
+		position:absolute;
+		top:10px;
+		right:64px;
+		display:inline-block;
+		z-index:1;
+	}
+	#admin_home_top_font1 a{
+		padding:0 8px 0 0;
+		zoom:1;         /* zoom: 1;是在处理兼容性问题下面这两行是解决没有上下边框问题的outline:none;	overflow:hidden;*/
+		font-size:14px;
+		color:#FFF;
+		
+	}
+	#admin_home_top_font2{
+		position:absolute;
+		top:65px;
+		right:346px;
+		display:inline-block;
+		z-index:1;
+	}
+	#admin_home_top_font2 a{
+		zoom:1;         /*下面这两行是解决没有上下边框问题的outline:none;	overflow:hidden;*/
+		font-size:14px;
+		color:#FFF;
+	}
+/*框架的中间部分*/
+#admin_home_among{
+	width:1250px;
+	height:490px;
+	/*height:auto !important;*//*不可以用，网页缩放小时会出现边框不到底部*/
+	min-height:490px;
+	overflow:hidden;
+}
+#admin_home_among div{
+	float:left;
+}
+	/*框架的中间部分的左部*/
+	#admin_home_left{
+		width:200px;
+		height:490px;
+		min-height:490px;
+		/*height:auto !important;*/
+		overflow:hidden;
+		border-right:2px solid #188BC7; 
+		border-top-style:none;
+		/*background:#fff;*/
+	}
+	#admin_home_left .admin_head{ width:35px; height:35px; border-radius:35px; background:url(../admin/images/admin_head.png) no-repeat;}
+	/*框架的中间部分的右部*/
+	#admin_home_right{
+		width:1048px;
+		height:490px;/*不能用百分比，原因是背景颜色会不到底部*/
+		min-height:490px;
+		/*height:auto !important;*/
+		overflow:hidden;
+		/*background-image:url(/admin/images/admin_nav02.gif);*/
+		/*background-color:#CCFFFF;*/
+		/*background-clip:border-box;*//*背景被剪到边框盒*/
+		/*background-size:100%;*/
+		/*position:absolute;
+		left:202px;*/
+		
+	}
+/*@-moz-document url-prefix(){
+	#admin_home_right{
+		left:204px;
+	}
+
+}*//*火狐特有的*/
+#admin_home_right1{
+	/*position: relative;z-index: 3; zoom:1;*/
+	background:#fff;    /*设置这个这个区域的背景色*/
+}
+/*框架的bottom部*/
+#admin_home_bottom{
+	color:#FFF;
+	width:1250px;
+	height:34px;
+	min-height:34px;
+	/*height:auto !important;*/ 
+	background-color:#0B6FB0;
+	line-height:34px;
+	text-align:center;
+	
+}

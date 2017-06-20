@@ -1,0 +1,106 @@
+@charset "utf-8";
+/* CSS Document */
+/*导航样式*/
+.index_nav1 .index_nav1_buy a{background-color:#0A6089;}
+
+/*内容区域*/
+.buy_content{font-family:"微软雅黑"; }
+	
+	.buy_content .buy_content_cate{ font-size:13px; line-height:18px; font-family:"微软雅黑"; color:#333;	}
+	
+	/* select 分类选择 */
+	.select{padding:5px 10px;width:1180px;font-size:13px;}
+	.select li{list-style:none;padding:10px 0 5px 60px}
+	.select .select-list{border-bottom:#eee 1px dashed;}
+	.select dl{zoom:1;position:relative;line-height:24px;}
+	/*.select .select-list8 dl{z-index:99;}*/
+	.select dl:after{content:" ";display:block;clear:both;height:0;overflow:hidden}
+	.select dt{width:100px;margin-bottom:5px;position:absolute;top:0px;left:-100px;text-align:right;color:#333;height:24px;line-height:24px; font-weight:bold;}
+	.select dd{float:left;display:inline;margin:0 0 5px 5px;}
+	.select .select-list8 dd{margin:0 0 0 -1px;}/*移动跟挨近*/
+	.select a{display:inline-block;white-space:nowrap;height:24px;padding:0 10px;text-decoration:none;color:#333;border-radius:2px;}
+	.select a:hover{color:#fff;background-color:rgba(11,111,176,0.7);}
+	.select .selected a{color:#fff;background-color:#0B6FB0;}
+	.select-result dt{font-weight:bold}
+	.select-no{color:#333;}
+	/*.select-noo{position:absolute; bottom:0px;}*//*定位清除符号*/
+	  @-moz-document url-prefix(){
+	  .select-noo{
+		  bottom:-7px;
+	  }
+	}
+	/*.select-noo a{padding:0 4px;border-radius:15px;}*/
+	/*.select .select-list8{position:absolute; left:510px; top:275px; border-bottom-style:none;}*//*排量，变速箱，颜色，国别*/
+	.select .select-result{ /*left:10px;bottom:10%;*//* bottom:48px;*/}/*定位结果集*/
+	.select .select-result a{padding-right:20px;background:#0B6FB0 url(/images/buy_content_cate.gif) right 9px no-repeat;color:#fff;}
+	.select .select-result a:hover{background-position: right -15px; color:#fff;}
+	
+	.select .select-result .select-noo a{padding:0 12px;border-radius:15px;background:#0B6FB0 url(/images/buy_content_cate.gif) 8px 9px no-repeat;color:#fff;}
+	.select-result .select-noo a:hover{background-color:#005073;background-position:8px -15px; color:#fff;}
+	
+	.select .select8_pai{display:inline-block;position:relative;background-color:#fff;padding:0 10px;  border:1px solid #ccc;margin-left:6px;}
+	.select .select8_bian{display:inline-block; position:relative; background-color:#fff;padding:0 10px;  border:1px solid #ccc;} 
+	.select .select8_color{display:inline-block;position:relative;background-color:#fff;padding:0 10px;  border:1px solid #ccc;}
+	.select .select8_country{display:inline-block;position:relative; background-color:#fff;padding:0 10px; margin-right:15px; border:1px solid #ccc;}
+	.select .select8 i{margin-left:15px;width:7px; height:17px; overflow:hidden; display:inline-block;background:url(/images/buy_content_cate2.png) left 10px no-repeat;}
+	
+	.width_h_280_82{ width:40%;}
+	.select .select-list .select8_pai1{left:5px; top:24px; border:1px solid #ccc; z-index:1;}
+	.select .select-list .select8_bian1{left:5px; top:24px; border:1px solid #ccc; z-index:1;}
+	.select .select-list .select8_color1{left:5px; top:24px; border:1px solid #ccc; z-index:1;}
+	.select .select-list .select8_country1{left:5px; top:24px; border:1px solid #ccc; z-index:1;}
+	
+	.select .select8_pai1 a{display:inline-block; font-size:12px;}
+	.select .select-list8 .p1{ margin:5px;}
+	
+	/*上面每个都得设置相对定位(position:relative;)和buy.js已经z-index:99;和设置display:inline-block;这样才能各个浏览器显示兼容*/
+	
+/*只对FF浏览器*/	
+	/* @-moz-document url-prefix(){
+	  .select8_pai1{top:20px;}
+  }*/
+
+/*只对IE浏览器*/
+	 /*@media \0screen{
+		 .select .select-list .select8_pai1{top:20px; }
+		 }*/
+	/*只对IE浏览器top:20px\0;*/
+	/*@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
+	 .select .select-list .select8_pai1{top:20px; }		
+	}*/
+	
+/*谷歌浏览器和360浏览*/
+	 /*@media screen and (-webkit-min-device-pixel-ratio:0){
+		 .select .select-list .select8_pai1{top:20px; }
+		 .select .select-list .select8_bian1{top:22px; }
+		 .select .select-list .select8_color1{top:22px; }
+		 .select .select-list .select8_country1{top:22px; }
+		 }*/
+
+/*汽车列表内容的样式*/	/*共1000辆车*/	 
+	/*.buy_content_li .buy_content_li_top{ height:30px;background-color:#0B6FB0;}
+	.buy_content_li .buy_content_li_top a{color:#fff;padding:0 20px;display:block; line-height:30px; font-size:14px;}
+	.buy_content_li .buy_content_li_top a:hover{background-color:#0A6089;}
+	.buy_content_li .buy_content_li_top_num a:hover{background-color:#0B6FB0;}
+	.buy_content_li .buy_content_li_list{font-family:"微软雅黑";}
+	
+		.width_h_292_276{width:292px;height:276px;}
+		.width_h_292_186{width:292px;height:186px;}
+		.width_h_292_90{width:292px;height:90px;}
+		.buy_content_li_list .buy_content_con_c{margin-right:5px; margin-bottom:6px; border:2px solid rgba(11,111,176,0);}
+		.buy_content_li_list .buy_content_con_margin_l{margin:0 auto;margin-right:-8px;}
+		.buy_content_li_list .buy_content_con_txt{background-color:#fff;}
+		.buy_content_li_list p{padding:0 10px;}
+		.buy_content_li_list .p1 a{color:#333; font-weight:bold; line-height:30px; font-size:14px;}
+		.buy_content_li_list .p2{color:#333;font-size:12px;line-height:20px;}
+		.buy_content_li_list .p2 em{padding:0 5px;}
+		.buy_content_li_list .p3 i{color:#0B6FB0;font-size:24px;line-height:35px;}
+		.buy_content_li_list .p3 s{color:#333;font-size:12px;line-height:35px; padding-left:10px;}*/
+
+
+
+
+
+
+
+

@@ -1,0 +1,12 @@
+@charset "utf-8";
+/* CSS Document */
+
+#page{ display:inline;}
+.left_rem{ margin-left:2px;}
+.border_color{border:#CCC 1px solid;}
+.page{font-size:14px; font-family:verdana; width:100%;}
+div.page a{ border:#CCC 1px solid; padding:2px 6px 2px 5px; margin:2px; color:#666; text-decoration:none;}
+div.page span{ border:#CCC 1px solid; padding:2px 5px 2px 5px; margin:2px; color:#999;}
+div.page span.cur_page{border:#CCC 1px solid; padding:4px 8px 4px 8px; margin:2px; background-color:#1E90FF; color:#FFF; font-weight:bold;}
+.submit_input{width:34px; height:19px;text-align:center;font-size: 16px; margin-left:2px;}
+.submit_button{width:38px;color:#fff; font-weight:bold;height:27px;padding:1px 8px 0px 9px; background:#1E90FF; margin-left:2px; margin-right:2px;}

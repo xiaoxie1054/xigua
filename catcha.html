@@ -1,0 +1,67 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>随机验证码</title>
+</head>
+
+<body>
+<?php
+	session_start();//1、启动，在顶部
+	$image=imagecreatetruecolor(100,30);//创建一个图片底色，宽度100，高度30px 
+	$bgcolor=imagecolorallocate($image,255,255,255);//设置图片的背景颜色为白色
+	imagefill($image,0,0,$bgcolor);//在 image 图像左上角(0,0)处执行区域填充背景颜色
+	
+	
+	
+/*
+	//随机数字
+	
+	for($i=0;$i<4;$i++){  //用循环输出四个数
+		$fontsize=6;      //字体大小为6px
+		$fontcolor=imagecolorallocate($image,rand(0,120),rand(0,120),rand(0,120));//在图像上字体颜色为红绿蓝随机
+		$fontcontent=rand(0,9);//内容随机0-9
+		$x=($i*100/4)+rand(5,10); //x的坐标分别输出四个随机数
+		$y=rand(5,10);  //y的坐标
+		imagestring($image,$fontsize,$x,$y,$fontcontent,$fontcolor);//用字体颜色将字符串 s 画到 image 所代表的图像的 x，y 坐标处
+	}
+*/
+	//随机数字和字母的混合
+	$captch_code='';     //先设置值为空
+	for($i=0;$i<4;$i++){  //用循环输出四个数
+		$fontsize=10;      //字体大小为6px
+		$fontcolor=imagecolorallocate($image,rand(0,120),rand(0,120),rand(0,120));//在图像上字体颜色为红绿蓝随机
+		$data='abcdefjhijkmnpqrszuvy23456789';  //定义一个字符串
+		$fontcontent=substr($data,rand(0,strlen($data)-1),1);//用substr随机截取data中一个字符
+		$captch_code.=$fontcontent; //依次赋值给captch_code 追加到验证码字符串 等于字符串连接
+		$x=($i*100/4)+rand(6,10); //x的坐标分别输出四个随机数
+		$y[0]=rand(3,10);  //y的坐标
+		$y[1]=rand(6,12);
+		$y[2]=rand(8,15);
+		$y[3]=rand(3,15);
+		imagestring($image,$fontsize,$x,$y[$i],$fontcontent,$fontcolor);//用字体颜色将字符串 s 画到 image 所代表的图像的 x，y 坐标处
+	}
+	$_SESSION['catcha']=$captch_code;//2、保存到这个session变量中
+
+	//随机点像素
+	for($i=0;$i<250;$i++){
+		$pointcolor=imagecolorallocate($image,rand(50,150),rand(50,150),rand(50,150));//点在图像上的颜色
+		imagesetpixel($image,rand(1,99),rand(1,29),$pointcolor);//随机在任何位置产生点像素
+	}
+	//随机画线
+	for($i=0;$i<3;$i++){
+		$linecolor=imagecolorallocate($image,rand(100,200),rand(100,200),rand(100,200));//画线的颜色
+		imageline($image,rand(1,99),rand(1,29),rand(1,99),rand(1,29),$linecolor);//在图像中两点画出一条线
+	}
+		
+	ob_clean(); //关键代码，防止出现'图像因其本身有错无法显示'的问题。
+	
+	header('content-type:image/png');//图像的格式
+
+	imagepng($image);//输出image
+	imagedestroy($image);//销毁image
+	
+	
+?>
+</body>
+</html>
