@@ -19,9 +19,9 @@
 	.register_content_con .reg1 input,.register_content_con .reg1 span{ vertical-align:middle; line-height:40px; font-size:13px;}
 	
 	.text_txt a{ color:#000; font-size:12px;}
-	.show_sh{ width:15px; height:18px;display:inline-block;background:url(/images/index_guide_shop1.png)-1px center no-repeat; margin:0 5px 0 20px; vertical-align:middle;}
-	.fail_fa{ width:20px; height:20px;display:inline-block;background:url(/images/register_content_con1.png)left 0px no-repeat; margin:0 5px 0 15px;vertical-align:middle;}
-	.succeed_su{ width:20px; height:20px;display:inline-block;background:url(/images/register_content_con1.png)left -64px no-repeat; margin:0 5px 0 15px;vertical-align:middle;}
+	.show_sh{ width:15px; height:18px;display:inline-block;background:url(../images/index_guide_shop1.png)-1px center no-repeat; margin:0 5px 0 20px; vertical-align:middle;}
+	.fail_fa{ width:20px; height:20px;display:inline-block;background:url(../images/register_content_con1.png)left 0px no-repeat; margin:0 5px 0 15px;vertical-align:middle;}
+	.succeed_su{ width:20px; height:20px;display:inline-block;background:url(../images/register_content_con1.png)left -64px no-repeat; margin:0 5px 0 15px;vertical-align:middle;}
 	
 	
 	

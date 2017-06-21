@@ -8,7 +8,7 @@
 	.user_content .user_content_con_c{}
 	.user_content_con_c .user_home{}
 	.user_home .user_home_top{ padding:5px;height:60px;}
-    .user_home_top .left{ margin-top:5px;width:50px; height:50px; border-radius:50px;background:url(/images/113.png) left center no-repeat;}
+    .user_home_top .left{ margin-top:5px;width:50px; height:50px; border-radius:50px;background:url(../images/113.png) left center no-repeat;}
     .user_home_top .right_name{ margin-left:10px;line-height:21px;}
 	.user_home_top .right_name .p1{ font-size:14px;}
 	.user_home_top .right_name .p2{ font-size:12px;}/*display:inline-block;没有这个有些是不显示的*/

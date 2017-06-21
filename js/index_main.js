@@ -9,7 +9,7 @@ $(document).ready(function(){
 	var li_list2=$(".user_content .buy_content_li_list2");
 	var li_list3=$(".user_content .buy_content_li_list3");
 	recom.hover(function(){
-	 li_list1.show();
+	 li_list1.show();li_list2.hide();li_list3.hide();
 	  $(this).css({"border-bottom":"3px solid #005073"});
 	  know.css({"border-bottom":"3px solid #8BBAD9"});
 	  story.css({"border-bottom":"3px solid #8BBAD9"});
