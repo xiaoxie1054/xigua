@@ -3,7 +3,7 @@ $(document).ready(function(){
 
 /*固定定位*/
 	$(window).scroll(function () {
-	  if ($(window).scrollTop()>=1040&&$(window).scrollTop()<=7500) {
+	  if ($(window).scrollTop()>=1060&&$(window).scrollTop()<=7500) {
 		$(".details_content_top1 a").css({"color":"#fff"});
 	  	$(".details_content_top1").css({"position":"fixed","bottom":"-1px","background-color":"#0B6FB0","display":"block"});/*rgba(139,186,217,1)*/
 

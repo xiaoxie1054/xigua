@@ -580,7 +580,7 @@ $(".change_car_va").on('change',function(){
 
 /*回到顶部*/
 /*window.onload=function(){*/
-	var obtn3=document.getElementById("btn3");
+/*	var obtn3=document.getElementById("btn3");
 	var obtn=document.getElementById("btn");
 	var osTop=document.documentElement.scrollTop || document.body.scrollTop;
 	//获取页面可视区的高度
@@ -630,5 +630,56 @@ $(".change_car_va").on('change',function(){
 				clearInterval(timea1);
 			}
 		},30);
+	}*/
+	var obtn3=document.getElementById("btn3");
+	var obtn=document.getElementById("btn");
+	var osTop=document.documentElement.scrollTop || document.body.scrollTop;
+	//获取页面可视区的高度
+	var clientHeight=(document.documentElement.clientHeight)/3;
+	var timea1=null;
+	var isTop=true;
+	if(osTop>=1054){
+			obtn.style.position='absolute';
+			obtn.style.bottom='290px';
+	}else{
+			obtn.style.position='fixed';
+			obtn.style.bottom='10px';
 	}
-}); 
+	if(osTop>=clientHeight){
+			obtn3.style.display='block';	
+	}else{
+			obtn3.style.display='none';
+	}
+	//滚动条滚动时触发
+	window.onscroll=function(){
+		var osTop=document.documentElement.scrollTop || document.body.scrollTop;
+		if(osTop>=clientHeight){
+			obtn3.style.display='block';	
+		}else{
+			obtn3.style.display='none';
+		}
+		if(osTop>=1054){
+			obtn.style.position='absolute';
+			obtn.style.bottom='290px';
+		}else{
+			obtn.style.position='fixed';
+			obtn.style.bottom='10px';
+		}
+		if(!isTop){
+			clearInterval(timea1);
+		}
+		isTop= false;
+	}
+	obtn3.onclick=function(){
+		timea1=setInterval(function(){
+			var osTop=document.documentElement.scrollTop || document.body.scrollTop;
+			var ispeed = Math.floor(-osTop / 7);
+			document.documentElement.scrollTop = document.body.scrollTop = osTop +ispeed;
+			isTop = true;
+			console.log(osTop -ispeed);
+			if (osTop == 0){
+				clearInterval(timea1);
+			}
+		},30);
+	} 
+});

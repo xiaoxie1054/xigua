@@ -32,17 +32,17 @@
 	/*.select-noo a{padding:0 4px;border-radius:15px;}*/
 	/*.select .select-list8{position:absolute; left:510px; top:275px; border-bottom-style:none;}*//*排量，变速箱，颜色，国别*/
 	.select .select-result{ /*left:10px;bottom:10%;*//* bottom:48px;*/}/*定位结果集*/
-	.select .select-result a{padding-right:20px;background:#0B6FB0 url(/images/buy_content_cate.gif) right 9px no-repeat;color:#fff;}
+	.select .select-result a{padding-right:20px;background:#0B6FB0 url(../images/buy_content_cate.gif) right 9px no-repeat;color:#fff;}
 	.select .select-result a:hover{background-position: right -15px; color:#fff;}
 	
-	.select .select-result .select-noo a{padding:0 12px;border-radius:15px;background:#0B6FB0 url(/images/buy_content_cate.gif) 8px 9px no-repeat;color:#fff;}
+	.select .select-result .select-noo a{padding:0 12px;border-radius:15px;background:#0B6FB0 url(../images/buy_content_cate.gif) 8px 9px no-repeat;color:#fff;}
 	.select-result .select-noo a:hover{background-color:#005073;background-position:8px -15px; color:#fff;}
 	
 	.select .select8_pai{display:inline-block;position:relative;background-color:#fff;padding:0 10px;  border:1px solid #ccc;margin-left:6px;}
 	.select .select8_bian{display:inline-block; position:relative; background-color:#fff;padding:0 10px;  border:1px solid #ccc;} 
 	.select .select8_color{display:inline-block;position:relative;background-color:#fff;padding:0 10px;  border:1px solid #ccc;}
 	.select .select8_country{display:inline-block;position:relative; background-color:#fff;padding:0 10px; margin-right:15px; border:1px solid #ccc;}
-	.select .select8 i{margin-left:15px;width:7px; height:17px; overflow:hidden; display:inline-block;background:url(/images/buy_content_cate2.png) left 10px no-repeat;}
+	.select .select8 i{margin-left:15px;width:7px; height:17px; overflow:hidden; display:inline-block;background:url(../images/buy_content_cate2.png) left 10px no-repeat;}
 	
 	.width_h_280_82{ width:40%;}
 	.select .select-list .select8_pai1{left:5px; top:24px; border:1px solid #ccc; z-index:1;}
