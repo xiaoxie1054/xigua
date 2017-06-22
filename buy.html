@@ -340,32 +340,34 @@
       </div>
       <div class="hr_5"></div>
       <div class="buy_content_li_list over_hidden clearfix">
-		<?php
-        for ($i=1; $i<=12; $i++){
-		?>
-        <div class="buy_content_con_margin_l"><!--只用来向右移动的，这样才不会有一个因为父级宽度不够出现在下方-->
-          <div class="buy_content_con_c<?=$i?> buy_content_con_c width_h_292_276 over_hidden fl"><!--只用来设置内边距--><!--用来设置外右边距-->
-            <div class="buy_content_con_cc width_h_292_276">
-              <div class="buy_content_con_pic width_h_292_186">
-                <img src="images/112.png" width="292" height="186"/>
-              </div>
-              <div class="buy_content_con_txt width_h_292_90">
-                <p class="p1">
-                  <a title="现代瑞纳2014款 1.4 自动 GLS 智能型" href="#">现代瑞纳2014款 1.4 自动 GLS 智能型</a>
-                </p>
-                <p class="p2">
-                  <span class="">2015年1月上牌</span><em class="shuxian">|</em>行驶1.9万公里
-                </p>
-                <p class="p3">
-                  <span><i class="fc-org priType">6.60万</i></span><s>9.40万</s>
-                </p>
-              </div>
-            </div>
-          </div>
-        </div>
-		<?php
+		
+      <script type="text/javascript">
+        var html='';
+        for(var i=1;i<=12;i++){
+
+        html+='<div class="buy_content_con_margin_l"><!--只用来向右移动的，这样才不会有一个因为父级宽度不够出现在下方-->';
+          html+='<div class="buy_content_con_c'+i+' buy_content_con_c width_h_292_276 over_hidden fl"><!--只用来设置内边距--><!--用来设置外右边距-->';
+            html+='<div class="buy_content_con_cc width_h_292_276">';
+              html+='<div class="buy_content_con_pic width_h_292_186">';
+                html+='<img src="images/112.png" width="292" height="186"/>';
+              html+='</div>';
+              html+='<div class="buy_content_con_txt width_h_292_90">';
+                html+='<p class="p1">';
+                  html+='<a title="现代瑞纳2014款 1.4 自动 GLS 智能型" href="#">现代瑞纳2014款 1.4 自动 GLS 智能型</a>';
+                html+='</p>';
+                html+='<p class="p2">';
+                  html+='<span class="">2015年1月上牌</span><em class="shuxian">|</em>行驶1.9万公里';
+                html+='</p>';
+                html+='<p class="p3">';
+                  html+='<span><i class="fc-org priType">6.60万</i></span><s>9.40万</s>';
+                html+='</p>';
+              html+='</div>';
+            html+='</div>';
+          html+='</div>';
+        html+='</div>';
         }
-        ?>
+        document.write(html);
+      </script>
       </div>
     </div>
   </div>
